@@ -30,8 +30,17 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     <link rel='stylesheet' href='css/common.css'>
 
     <title>Immersive AR Session</title>
+    <style>
+      #button{
+        position: fixed;
+        bottom: 5px;
+        left: 5px;
+        z-index: 10;
+      }
+    </style>
   </head>
   <body>
+    <button id="button">testbutton</button>
     <header>
       <details open>
         <summary>Immersive AR Session</summary>
@@ -190,5 +199,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       // Start the XR application.
       initXR();
     </script>
+    
   </body>
 </html>
